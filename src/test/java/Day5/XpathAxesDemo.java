@@ -11,6 +11,7 @@ public class XpathAxesDemo {
         driver.get("https://accounts.lambdatest.com/register");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
+        driver.manage().window().maximize();
 
 
     }
